@@ -1,5 +1,108 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "0.0.0",
-  "patches": []
+  "version": "1.0.0",
+  "patches": [
+    {
+      "name": "Clean Modern Header Icons",
+      "description": "Replaces Viber's back arrow, voice call, and video call icons with sleek modern vector icons.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.viber.voip",
+          "name": "Rakuten Viber Messenger",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#7360F2",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "29.6.0.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Liquid Glass Navigation Bar",
+      "description": "Floating draggable App Store / Telegram Liquid Glass capsule with adaptive light/dark tinting.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.viber.voip",
+          "name": "Rakuten Viber Messenger",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#7360F2",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "29.6.0.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Tablet Adaptive Layout",
+      "description": "Centers Viber's chat container and floating glass bar on tablets (sw600dp+).",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.viber.voip",
+          "name": "Rakuten Viber Messenger",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#7360F2",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "29.6.0.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
 }
